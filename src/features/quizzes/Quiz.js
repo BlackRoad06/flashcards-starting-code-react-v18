@@ -5,7 +5,7 @@ import Card from "../cards/Card";
 import ROUTES from "../../app/routes";
 // import quiz selector
 import { quizzesSelector } from "./quizzesSlice";
-import { selectCardById } from "../cards/cardsSlice";
+
 
 export default function Quiz() {
   const quizzes = useSelector(quizzesSelector); // replace this with a call to your selector to get all the quizzes in state
